@@ -801,17 +801,41 @@
 
         .insurance-logo {
             background: var(--white);
-            padding: 16px 28px;
+            padding: 12px 20px;
             border-radius: 12px;
             box-shadow: var(--shadow-sm);
             display: flex;
             align-items: center;
             justify-content: center;
-            min-width: 120px;
-            height: 60px;
+            min-width: 140px;
+            height: 70px;
+            transition: all 0.3s ease;
+        }
+
+        .insurance-logo:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .insurance-logo img {
+            max-width: 120px;
+            max-height: 45px;
+            object-fit: contain;
+            filter: grayscale(0%);
+            transition: filter 0.3s ease;
+        }
+
+        .insurance-more {
+            background: var(--primary);
+            color: var(--white);
             font-weight: 700;
-            color: var(--text-light);
-            font-size: 14px;
+            font-size: 15px;
+            text-align: center;
+            min-width: 80px;
+        }
+
+        .insurance-more span {
+            line-height: 1.3;
         }
 
         /* ===== TESTIMONIALS ===== */
@@ -1639,11 +1663,24 @@
                     <p>Don't stress about paperwork. We handle insurance claims directly, documenting everything and communicating with your provider so you don't have to.</p>
                 </div>
                 <div class="insurance-logos">
-                    <div class="insurance-logo">State Farm</div>
-                    <div class="insurance-logo">Allstate</div>
-                    <div class="insurance-logo">Farmers</div>
-                    <div class="insurance-logo">Liberty Mutual</div>
-                    <div class="insurance-logo">+ All Others</div>
+                    <div class="insurance-logo">
+                        <img src="statefarm.png" alt="State Farm Insurance">
+                    </div>
+                    <div class="insurance-logo">
+                        <img src="allstate.png" alt="Allstate Insurance">
+                    </div>
+                    <div class="insurance-logo">
+                        <img src="farmersinsurance.png" alt="Farmers Insurance">
+                    </div>
+                    <div class="insurance-logo">
+                        <img src="libertymutual.png" alt="Liberty Mutual Insurance">
+                    </div>
+                    <div class="insurance-logo">
+                        <img src="progressive.png" alt="Progressive Insurance">
+                    </div>
+                    <div class="insurance-logo insurance-more">
+                        <span>+ All<br>Others</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1779,7 +1816,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                             </svg>
-                            <span><a href="mailto:info@primerescue24.com">info@primerescue24.com</a></span>
+                            <span><a href="/cdn-cgi/l/email-protection#dbb2b5bdb49baba9b2b6bea9bea8b8aebee9eff5b8b4b6"><span class="__cf_email__" data-cfemail="573e3931381727253e3a3225322434223265637934383a">[email&#160;protected]</span></a></span>
                         </div>
                         <div class="footer-contact-item">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1808,10 +1845,4 @@
     <div class="floating-cta">
         <a href="tel:6264692900" class="floating-btn floating-phone" aria-label="Call Now">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-            </svg>
-        </a>
-    </div>
-
-</body>
-</html>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.
