@@ -1218,17 +1218,46 @@
 
         @media (max-width: 768px) {
             .header-content {
-                flex-direction: column;
-                gap: 16px;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 8px;
+                padding: 0;
+            }
+
+            header {
+                padding: 10px 0;
+            }
+
+            .logo img {
+                height: 36px;
+            }
+
+            .logo-text {
+                display: none;
             }
 
             .header-cta {
-                flex-direction: column;
-                width: 100%;
+                flex-direction: row;
+                gap: 8px;
             }
 
             .header-phone {
-                align-items: center;
+                display: none;
+            }
+
+            .btn {
+                padding: 10px 16px;
+                font-size: 13px;
+            }
+
+            .btn-lg {
+                padding: 14px 24px;
+                font-size: 15px;
+            }
+
+            .emergency-banner {
+                font-size: 12px;
+                padding: 8px 12px;
             }
 
             .hero {
@@ -1284,8 +1313,27 @@
                 text-align: center;
             }
 
+            .footer-brand {
+                max-width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .footer-brand p {
+                text-align: center;
+            }
+
+            .footer-logo {
+                justify-content: center;
+            }
+
             .footer-contact {
                 align-items: center;
+            }
+
+            .footer-contact-item {
+                justify-content: center;
             }
 
             .footer-bottom {
@@ -1418,12 +1466,12 @@
                 <div class="trust-item">
                     <div class="trust-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                         </svg>
                     </div>
                     <div class="trust-text">
-                        <span class="trust-number">60 Min</span>
-                        <span class="trust-label">Response Time</span>
+                        <span class="trust-number">Rapid</span>
+                        <span class="trust-label">Emergency Response</span>
                     </div>
                 </div>
                 <div class="trust-item">
@@ -1440,12 +1488,12 @@
                 <div class="trust-item">
                     <div class="trust-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                         </svg>
                     </div>
                     <div class="trust-text">
-                        <span class="trust-number">500+</span>
-                        <span class="trust-label">Properties Restored</span>
+                        <span class="trust-number">Licensed</span>
+                        <span class="trust-label">Bonded & Insured</span>
                     </div>
                 </div>
                 <div class="trust-item">
@@ -1455,8 +1503,8 @@
                         </svg>
                     </div>
                     <div class="trust-text">
-                        <span class="trust-number">4.9★</span>
-                        <span class="trust-label">Customer Rating</span>
+                        <span class="trust-number">5-Star</span>
+                        <span class="trust-label">Customer Rated</span>
                     </div>
                 </div>
             </div>
@@ -1816,7 +1864,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                             </svg>
-                            <span><a href="/cdn-cgi/l/email-protection#dbb2b5bdb49baba9b2b6bea9bea8b8aebee9eff5b8b4b6"><span class="__cf_email__" data-cfemail="573e3931381727253e3a3225322434223265637934383a">[email&#160;protected]</span></a></span>
+                            <span><a href="/cdn-cgi/l/email-protection#dbb2b5bdb49baba9b2b6bea9bea8b8aebee9eff5b8b4b6"><span class="__cf_email__" data-cfemail="573e3931381727253e3a3225322434223265637934383a">info@primerescue24.com</span></a></span>
                         </div>
                         <div class="footer-contact-item">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
